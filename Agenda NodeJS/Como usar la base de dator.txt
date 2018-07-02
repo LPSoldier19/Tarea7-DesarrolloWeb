@@ -1,0 +1,17 @@
+ejecuta mongo.exe:
+
+insertar el siguiente comando:
+
+use agenda_db
+
+despues, insertar este comando:
+
+db.usuarios.insertMany([{ email: 'demo@mail.com', user: "demo", password: "123456"}, { email: 'rafael@gmail.com', user: "Rafael Bautista", password: "1234"}])
+
+luego en nodejs ejecuta por consola:
+
+node index.js (Esto en la carpeta en la cual esta el index.js la cual es "server")
+
+saldra un mensaje diciendo server is listening on port 3000 
+
+ingresar en el url: localhost:3000/index.html
